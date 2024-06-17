@@ -16,9 +16,10 @@
 
 `python setup.py`
 
-3- Clone the phpmailer repository inside the phpmailer directory
+3- Make a `phpmailer` directory in the same path of `index.php` & Clone the phpmailer repository inside the phpmailer directory
 
 ```
+mkdir ~/0xhashimRESETriddle/phpmailer
 cd ~/0xhashimRESETriddle/phpmailer
 git clone https://github.com/PHPMailer/PHPMailer.git
 ```
