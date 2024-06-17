@@ -1,0 +1,44 @@
+<head>
+  <title>0xhashimGateway</title>
+</head>
+<section class="main-container">
+  <h1>0x<span>lockdown</span>Labyrinth</h1>
+
+  <p>
+    - Create a <code>victim</code> account and attempt to reset its password
+    using this vulnerable password reset function.
+  </p>
+
+  <form class="mailForm" id="mail_Form" method="post">
+    <input
+      type="text"
+      name="userMail"
+      id="userName"
+      placeholder="Your E-mail address"
+      required
+    />
+    <input type="submit" value="Reset" id="sendFormBtn" name="resetPASS" />
+    <p id="reset-msg" style="display: none">
+      Reset link will be send to your registered email
+    </p>
+    <a href="http://localhost/0xhashimRESETriddle/p/homepage.php" id="back-link"
+      >Back to labs</a
+    >
+  </form>
+
+  <!-- MAIL SCRIPT -->
+  <script src="mail.js"></script>
+
+  <p id="hint">Hint</p>
+  <script>
+    var hint = document.getElementById("hint");
+    hint.addEventListener("click", () => {
+      if ((hint.innerHTML = "Hint")) {
+        hint.innerHTML =
+          "Try to manipulate the request to retrieve the reset token.";
+      } else {
+        hint.innerHTML = "Hint";
+      }
+    });
+  </script>
+</section>

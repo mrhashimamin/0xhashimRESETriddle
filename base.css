@@ -1,0 +1,241 @@
+/* MAIN styles */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #7b68ee;
+}
+a {
+  text-decoration: none;
+}
+
+/* LAB HEADER */
+.lab-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 7em;
+  padding: 2em;
+  border-bottom: 2px solid #6a5acd;
+  margin-bottom: 1em;
+}
+.site-links {
+  display: flex;
+  gap: 2em;
+}
+.site-logo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-logo-div img {
+  width: 5em;
+  margin-right: 1em;
+}
+.site-logo-div h1 {
+  font-size: 2.4em;
+  color: #000080;
+}
+.site-logo-div span {
+  color: #7b68ee;
+}
+
+/* ONLY WHEN LOGGED IN */
+#logout-button {
+  display: block;
+}
+
+.link-button {
+  font-size: 1.7em;
+  color: #6a5acd;
+}
+.link-button:hover {
+  text-decoration: underline;
+}
+/* SHOW ONLY WHEN SOLVED */
+#solve-slide {
+  display: none;
+  text-align: center;
+  background-color: #5c4ebb;
+  padding: 1em;
+  color: #e6e6e6;
+  margin: 1em 0;
+  width: 200px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* INDEX - HOME PAGE */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #c0c0c0;
+  background-color: #e8ddff;
+  padding: 3em;
+  height: calc(100vh - 15em);
+  width: 1200px;
+}
+.main-container h1,
+.main-container h2 {
+  font-size: 3em;
+  margin-top: 1em;
+  text-align: center;
+  color: #000080;
+}
+.main-container h1 a {
+  text-decoration: none;
+  color: #7b68ee;
+}
+.main-container h1 a:hover {
+  text-decoration: underline;
+}
+.main-container span {
+  color: #7b68ee;
+}
+.main-container span:hover {
+  text-decoration: underline;
+}
+#batman {
+  margin-top: 5em;
+  border: 5px solid #6a5acd;
+}
+.challenges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+.challenge {
+  margin: 2em;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s linear;
+}
+.challenge img {
+  padding: 1em;
+}
+.challenge img:hover {
+  background-color: #7b68ee;
+  transform: scale(0.9);
+}
+.challenge p {
+  font-size: 2em;
+  font-weight: 500;
+  color: #000080;
+}
+.challenges img {
+  width: 200px;
+  margin-bottom: 0.4em;
+  transition: 0.3s linear;
+}
+/* LAB FOOTER */
+.lab-footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #5c4ebb;
+  color: #e6e6e6;
+  margin-top: 1.5em;
+  height: 100%;
+  width: 100%;
+}
+.lab-footer a {
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: 400;
+  color: #e8ddff;
+  font-style: italic;
+}
+
+/* LOGIN PAGE */
+.mailForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mailForm input {
+  font-size: 2em;
+  width: 100%;
+  margin-top: 1em;
+  border: 1px solid #b2babe;
+  outline: none;
+  color: #000080;
+  text-align: center;
+  padding: 0.4em;
+}
+.mailForm input:first-child {
+  height: fit-content;
+}
+#sendFormBtn {
+  width: fit-content;
+  cursor: pointer;
+  color: #e6e6e6;
+  background-color: #7b68ee;
+  border: none;
+  font-size: 1.6em;
+  padding: 0.6em;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+/* LAB 1 */
+.main-container p {
+  margin-top: 2em;
+  font-size: 1.4em;
+  text-align: center;
+  color: #5c4ebb;
+}
+/* ONLY WHEN SUBMITTING */
+#reset-note {
+  display: block;
+  text-align: center;
+  color: #008031;
+}
+
+code {
+  background-color: #6a5acd;
+  color: #e6e6e6;
+  padding: 0.4em;
+  border-radius: 7px;
+}
+
+#back-link {
+  color: #7b68ee;
+  margin-top: 2em;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+#back-link:hover {
+  text-decoration: underline;
+}
+
+#hint {
+  color: #7b68ee;
+}
+#hint:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#reset-msg {
+  color: green;
+  font-size: 1.4em;
+}

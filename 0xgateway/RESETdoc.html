@@ -1,0 +1,36 @@
+<head>
+  <title>0xhashimGateway</title>
+</head>
+<section class="main-container">
+  <h1>0xhashim<span>Gateway</span></h1>
+
+  <p>
+    - Create a <code>victim</code> account and attempt to reset its password
+    using this vulnerable password reset function.
+  </p>
+
+  <form class="mailForm" method="post" action="send.php">
+    <input
+      type="text"
+      name="userMail"
+      id="userName"
+      placeholder="Your E-mail address"
+      required
+    />
+    <input type="submit" value="Reset" id="sendFormBtn" name="resetPASS" />
+    <a href="http://localhost/0xhashimRESETriddle/p/homepage.php" id="back-link"
+      >Back to labs</a
+    >
+  </form>
+  <p id="hint">Hint</p>
+  <script>
+    var hint = document.getElementById("hint");
+    hint.addEventListener("click", () => {
+      if ((hint.innerHTML = "Hint")) {
+        hint.innerHTML = "You need to know about { Host Header Attacks }";
+      } else {
+        hint.innerHTML = "Hint";
+      }
+    });
+  </script>
+</section>
