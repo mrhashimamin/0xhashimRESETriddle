@@ -16,6 +16,8 @@
 
 `python setup.py`
 
+![setup.py](https://github.com/mrhashimamin/0xhashimRESETriddle/blob/main/src/setup.png?raw=true)
+
 3- Make a `phpmailer` directory at the lab directory & Clone the phpmailer repository inside the phpmailer directory
 
 ```
@@ -34,8 +36,6 @@ nano path-to-your-localhost/0xhashimRESETriddle/backend/connect.php
 // Modify MYSQL username/password as yours
 ```
 ![connect.php](https://github.com/mrhashimamin/0xhashimRESETriddle/blob/main/src/CONNECT.png?raw=true)
-
-![setup.py](https://github.com/mrhashimamin/0xhashimRESETriddle/blob/main/src/setup.png?raw=true)
 
 # Some images
 
