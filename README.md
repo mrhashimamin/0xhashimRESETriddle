@@ -28,6 +28,13 @@ cd ../
 rmdir PHPMailer/
 ```
 
+4- If you have modified MYSQL database username/password
+```
+nano path-to-your-localhost/0xhashimRESETriddle/backend/connect.php
+// Modify MYSQL username/password as yours
+```
+![connect.php](https://github.com/mrhashimamin/0xhashimRESETriddle/blob/main/src/CONNECT.png?raw=true)
+
 ![setup.py](https://github.com/mrhashimamin/0xhashimRESETriddle/blob/main/src/setup.png?raw=true)
 
 # Some images
