@@ -3,7 +3,7 @@
 
 ![0xhashimRESETriddle](https://github.com/mrhashimamin/0xhashimRESETriddle/blob/main/src/github%20(2).png?raw=true)  
 
-# Requiremnets
+# Requirements
 - Python
 - LAMP STACK
 
