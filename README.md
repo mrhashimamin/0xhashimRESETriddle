@@ -19,9 +19,13 @@
 3- Make a `phpmailer` directory at the lab directory & Clone the phpmailer repository inside the phpmailer directory
 
 ```
-mkdir ~/0xhashimRESETriddle/phpmailer
-cd ~/0xhashimRESETriddle/phpmailer
+mkdir path-to-your-localhost/0xhashimRESETriddle/phpmailer
+cd path-to-your-localhost/0xhashimRESETriddle/phpmailer
 git clone https://github.com/PHPMailer/PHPMailer.git
+cd PHPMailer/
+mv * path-to-your-localhost/0xhashimRESETriddle/phpmailer/
+cd ../
+rmdir PHPMailer/
 ```
 
 ![setup.py](https://github.com/mrhashimamin/0xhashimRESETriddle/blob/main/src/setup.png?raw=true)
